@@ -1,0 +1,122 @@
+.vh-home{
+height: 100vh;
+
+}
+
+#home{
+    background-image: url(../imgs/events-heavenly-header.jpg);
+    background-size: 100% 100%;
+    height: 90vh;
+}
+.layer{
+    background-color: rgba(250, 73, 73, 0.552);
+    width: 100%;
+    height: 90vh;
+}
+#bigSidebar{
+    left: -310px;
+}
+.sidebar{
+    height: 100vh;
+    position: fixed
+
+}
+.nav-text{
+    background-color: #111;
+    width: 310px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    
+
+}
+.close{
+    font-size: 40px;
+}
+/* style="font-size:30px;cursor:pointer" */
+.openNav{
+    font-size: 30px;
+}
+ .nav-text a{
+    transition: all 0.5s;
+}
+.nav-text a:hover{
+    color: brown !important;
+}
+.h1font{
+    font-size: 60px;
+}
+.toggle{
+    background-color: rgba(214, 46, 51, 0.6) !important;
+    margin-bottom: 0px;
+    padding: 10px;
+    color: white;
+}
+.toggle-text{
+    background-color: #ccc;
+    display: none;
+}
+#Details {
+    background-image: url(../imgs/download.jfif);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 320px;
+    margin-top: 120px;
+}
+.layer2{
+    background-color: rgba(250, 73, 73, 0.552);
+    width: 100%;
+height: 100%;
+}
+.hit{
+    height: 146px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white !important;
+}
+
+.container{
+    width: 75% !important;
+    height: 100%;
+    padding: 90px 0px ;
+}
+.fab{
+    border: 1px solid #777;
+    padding: 10px;
+    margin-right: 10px;
+    width: 40px;
+    height: 37px;
+    color: #777 !important;
+    transition: all 0.5s;
+}
+.fab:hover{
+    background-color: #D62E33 !important;
+    color: white !important;
+}
+.htext{
+    color: #444 !important;
+}
+.ptext{
+    color: #777;
+    font-weight: 300;
+    font-size: 16px;
+}
+.texxt{
+    color: #777;
+    font-size: 16px;
+    line-height: 26px;
+}
+textarea{
+    height: 200px;
+}
+input::placeholder{
+    color: #777 !important;
+}
+textarea::placeholder{
+    color: #777 !important;
+}
+.Characyer{
+    font-size: 20px;
+}
